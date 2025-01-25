@@ -17,17 +17,20 @@ For this project, I set up a Windows virtual machine (VM) in Azure to act as a h
 
 ### Step 1: [Step Title]  
 **Description:**  
-Provide a detailed explanation of what this step involves, including the goals and any key points.  
+The next step in the process, after creating a free azure account, is the create and configure our Windows 10 virtual machine! It's important to give it an administrator user and password you'll remember.  
 
 **Image:**  
-<img src="https://imgur.com/01jUq2V"  height="80%" width="80%"
+![Creating The VM](images/windows10.png)
+
+More importantly, we need to make sure our Windows machine is suceptible to attacks and basically free game to any hackers. Here's me configuring the security group to allow anything into the system.
+
+![Creating The VM](images/networkgroup.png)
 
 ---
 
 ### Step 2: [Step Title]  
 **Description:**  
-Provide a detailed explanation of this step, including what was done and why it’s important.  
-
+More importantly, we need to make sure our Windows machine is suceptible to attacks and basically free game to any hackers. Here's me configuring the security group to allow anything into the system.
 **Image:**  
 ![Step 2 Image](path/to/https://imgur.com/01jUq2V)  
 
