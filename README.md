@@ -20,7 +20,7 @@ For this project, I set up a Windows virtual machine (VM) in Azure to act as a h
 Provide a detailed explanation of what this step involves, including the goals and any key points.  
 
 **Image:**  
-![Step 1 Image](path/to/image1.png)  
+<img src="https://imgur.com/01jUq2V"  height="80%" width="80%"
 
 ---
 
@@ -29,7 +29,7 @@ Provide a detailed explanation of what this step involves, including the goals a
 Provide a detailed explanation of this step, including what was done and why it’s important.  
 
 **Image:**  
-![Step 2 Image](path/to/image2.png)  
+![Step 2 Image](path/to/https://imgur.com/01jUq2V)  
 
 ---
 
