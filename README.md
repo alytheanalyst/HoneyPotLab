@@ -28,6 +28,7 @@ More importantly, we need to make sure our Windows machine is suceptible to atta
 
 And here is an image of all the options I selected before creating the VM.
 
+![Creating The VM](images/pressingcreate.png)
 
 
 ---
