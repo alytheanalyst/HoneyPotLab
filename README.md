@@ -15,9 +15,9 @@ For this project, I set up a Windows virtual machine (VM) in Azure to act as a h
 
 ## Walk Through  
 
-### Step 1: [Step Title]  
+### Step 1: Creating the Virtual Machine (The Honeypot)  
 **Description:**  
-The next step in the process, after creating a free azure account, is the create and configure our Windows 10 virtual machine! It's important to give it an administrator user and password you'll remember.  
+The first step in the process, after creating a free azure account, is the create and configure our Windows 10 virtual machine! It's important to give it an administrator user and password you'll remember.  
 
 **Image:**  
 ![Creating The VM](images/windows10.png)
@@ -25,6 +25,10 @@ The next step in the process, after creating a free azure account, is the create
 More importantly, we need to make sure our Windows machine is suceptible to attacks and basically free game to any hackers. Here's me configuring the security group to allow anything into the system.
 
 ![Creating The VM](images/networkgroup.png)
+
+And here is an image of all the options I selected before creating the VM.
+
+
 
 ---
 
