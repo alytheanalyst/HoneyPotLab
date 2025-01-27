@@ -33,11 +33,25 @@ And here is an image of all the options I selected before creating the VM.
 
 ---
 
-### Step 2: [Step Title]  
+### Step 2: Configuring Log Analytics and Microsoft Sentinnel  
 **Description:**  
-More importantly, we need to make sure our Windows machine is suceptible to attacks and basically free game to any hackers. Here's me configuring the security group to allow anything into the system.
+The next step is to create our Log Analytics workspace. This will be used to ingest security event logs from the Windows VM. Later on, we will create a custom log that will give us geographic information to discover our hacker's locations in detail.
 **Image:**  
-![Step 2 Image](path/to/https://imgur.com/01jUq2V)  
+![Step 2 Image](images/loganalytics.png)  
+
+Then we want to head to Microsoft Defender so we can enable the ability to gather logs from the VM into the log analytics workspace. We want to collect all events.
+
+![Step 2 Image](images/enablevmlogs.png)  
+
+![Step 2 Image](images/enablevmlogs2.png)
+
+Next, we want to actually connect our log analytics workspace to our honeypot.
+
+![Step 2 Image](images/connecttovm.png)
+
+Finally, we are going to connect Microsoft Sentinnel to our log analytics workspace. This is the SIEM we are going to use to visualize the attack data.
+
+![Step 2 Image](images/connectsentinel.png)
 
 ---
 
