@@ -55,21 +55,25 @@ Finally, we are going to connect Microsoft Sentinnel to our log analytics worksp
 
 ---
 
-### Step 3: [Step Title]  
+### Step 3: [Loggin In]  
 **Description:**  
-Explain what was achieved in this step, along with any challenges or key insights.  
+Now we can log into our virtual machine! I used RDP through my actual desktop to connect to the VM. All you would do is take the enter the IP address of the VM, then enter the adminstrator username and password.  
+If I ping the VM from my actual PC, we can see that there is no reply and the request times out. That's because the VM's firewall is still on. We need to go to the firewall settings and turn everything off, and then we will get a reply back.
+
+
 
 **Image:**  
 ![Step 3 Image](path/to/image3.png)  
 
 ---
 
-### Step 4: [Step Title]  
+### Step 4: [Powershell]  
 **Description:**  
-Provide details of this step, focusing on the specific tasks completed.  
-
+Here we are going to open up powershell and enter an infinitely looping script. The script will look through the windows security event logs and grab all the attempts of people trying to log in and their IP address. It extracts their geo data and creates a new log file. For this to work, we need a api key from ipgeolocation.io. This is the website that gives us the api key in order to retreive information like country, city, latittude and longitude. All you need to do is go to their website, create an account, get your free api key and insert it into the powershell script.
 **Image:**  
 ![Step 4 Image](path/to/image4.png)  
+
+It creates a file in program data. We will use the contents of this file to train Log Analytics Workspace on what to look for. Now, the file was created inside the VM so we can't import it into Log analytics like that. Instead we can copy the contents and create another file through notepad on our own PC.
 
 ---
 
